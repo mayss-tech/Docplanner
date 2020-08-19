@@ -1,0 +1,439 @@
+.entete{
+     display: flex;
+     position: fixed;
+     height:10% ;
+     width: 100%;
+     top:0px;
+     background-color: white;
+     z-index: 99;
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: space-around;
+    width:400px;
+    position: relative;
+    margin-top: 35px;
+    padding-left:330px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   }
+.menu-bar li a{
+       text-decoration: none;     
+       list-style: none;
+       color: grey;
+}
+.menu-bar ul li{
+ margin: 15px;
+ list-style: none;
+}
+.menu-bar ul li a{
+  color: grey;
+ 
+}
+.sub-menu{
+    display:none;
+    position: absolute;
+    width:max-content;   
+    background-color: white;
+    box-shadow: 0px 10px 2px rgb(204, 200, 200);
+    padding:0px;
+    font-size: 14px;
+}
+#dep:hover .sub-menu{
+    display: block;
+    
+}
+#dep :hover{
+    color:#00b39b;   
+}
+#car :hover{
+    color:#00b39b;  
+}
+
+.section1{
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.img-logo{
+    margin-top:8% ;
+    display: block;
+    height: 70px;
+    width: 70px;
+   padding-left: 45%;
+}
+.sec-part1 p{
+    text-align: center;
+    color: #00b39b;
+    font-size: 2.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-part2{
+    display: flex;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 30px;
+    justify-content: space-around;
+   
+}
+.sec-part2 p{
+    padding: 8px;
+}
+.section2{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box inherit;
+    padding-left: 170px;
+    padding-right:170px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    
+} 
+.select-option{
+    height:40px;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    border-radius: 5px;
+
+}
+.img-section2{
+    height: 220px;
+    width: 320px;
+
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;  
+ }
+ @keyframes anim1{
+    from{left:500px;}
+    to{left:0px;}
+}
+
+ .p1{
+    font-size: 28px;
+    color: white;
+
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes anim2{
+    from{left:500px;}
+    to{left:0px;}
+}
+
+.section-forpatients{
+   background-color:#00ccb1;
+   width:420px;
+   border-radius: 15px;
+   height: 350px;
+   overflow: hidden;
+   padding:30px;
+
+   position: relative;
+   animation-name: anim3;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+    }
+    @keyframes anim3{
+        from{top:200px;}
+        to{top:0px;}
+    }
+    .img-select{
+        display: flex;
+
+        position: relative;
+        animation-name: anim4;
+        animation-duration: 2.5s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes anim4{
+        from{left:500px;}
+        to{left:0px;}
+    }
+.section-fordoctors{
+    background-color:#3d83df;
+    width:420px;
+    border-radius: 15px;
+    height: 350px;
+    overflow: hidden;
+    padding:30px;
+
+    position: relative;
+    animation-name: anim5;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+ }
+ @keyframes anim5{
+    from{top:200px;}
+    to{top:0px;}
+}
+
+ #patients, #doctors{
+     font-size: small;
+     color: honeydew;
+
+     position: relative;
+     animation-name: anim6;
+     animation-duration: 2.5s;
+     animation-fill-mode: forwards;
+}
+@keyframes anim6{
+    from{left:450px;}
+    to{left:0px;}
+}
+   
+ .section3{
+     display:flex;
+     margin-right:170px;
+     margin-left: 170px;
+     margin-bottom: 40px;
+   
+ }
+ .lien-section3{
+     display:flex;
+     width: 700px;
+       
+     flex-wrap: wrap;
+     align-content: flex-start;
+   
+ }
+ .section3 p{
+     color:#00b39b;
+     font-size: 28px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-right:85px;
+ }
+ .lien{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right:48.8px;
+    margin-top: 30px;
+    width:max-content; 
+ }
+ .lien :hover{
+ color: #00b39b;
+ }
+ .lien-section3 a {
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     text-decoration: none;
+     color:rgb(175, 175, 175);
+ 
+ }
+
+.section4{
+   height:610px ;
+   background-color:#e5faf8;
+   display: flex;
+   overflow: hidden;
+
+}
+.p6{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+color:#00b39b ;
+padding-right:50px;
+padding-top:50px;
+padding-left: 170px;
+}
+.p7{
+font-family: Arial, Helvetica, sans-serif;
+color:grey;
+padding-right:70px;
+font-size:15px;
+padding-bottom:30px;
+padding-left: 170px;
+}
+.part2{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap; 
+   margin-right: 400px;
+   
+}
+.block01{
+    display: block;
+}
+.block02{
+    display: block;   
+}
+.block1, .block2, .block3, .block4{
+    background-color:white;
+    height:240px;
+    width:220px;
+    border-radius: 5px;
+    padding:6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+
+.block1{
+margin-top: 50px;
+margin-right: 18px;
+margin-bottom: 18px;
+
+position: relative;
+animation-name: animx1;
+animation-duration: 600ms;
+animation-fill-mode: forwards;  
+}
+@keyframes animx1{
+    from{top:200px;}
+    to{top:0px;}
+}
+.block2{
+margin-top:18px;
+margin-bottom: 18px;
+
+position: relative;
+animation-name: animx2;
+animation-duration: 800ms;
+animation-fill-mode: forwards; 
+}
+@keyframes animx2{
+    from{top:200px;}
+    to{top:0px;}
+}
+.block3{
+margin-right: 18px;
+margin-bottom: 40px;
+
+position: relative;
+animation-name: animx3;
+animation-duration: 1s;
+animation-fill-mode: forwards; 
+}
+@keyframes animx3{
+    from{top:200px;}
+    to{top:0px;}
+}
+.block4{
+margin-bottom:50px;
+
+position: relative;
+animation-name: animx4;
+animation-duration: 1.2s;
+animation-fill-mode: forwards;    
+}
+@keyframes animx4{
+    from{top:200px;}
+    to{top:0px;}
+}
+.p2{
+    text-align: center;
+    color:#00b39b;
+    font-size: 25px;
+}
+.p3{
+    text-align: center;
+    color: grey;
+    font-size: 15px; 
+}
+.p4{
+    text-align: center;
+    color:#00b39b;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 450px ;
+    margin-left:450px;
+} 
+.p5{
+    text-align: center;
+    color: grey;
+    font-size: 14px; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin-right: 440px ;
+    margin-left:440px;
+  
+}
+.section6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    margin-right: 170px;
+    justify-content: space-around;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:60px;
+    margin-bottom: 80px;
+}
+.warsaw, .barcelona, .istanbul, .rome, .mexico, .curitibia{
+    box-sizing: inherit;
+    font-weight: 400;
+    background-color: #fff;
+  
+}
+.warsaw a, .barcelona a, .curitibia a, .rome a, .mexico a, .istanbul a{
+    text-decoration: none;  
+}
+.warsaw, .barcelona,.istanbul{
+    margin-bottom: 20px;
+}
+.warsaw, .barcelona, .curitibia, .rome, .mexico, .istanbul{
+    border-radius: 5px;
+    
+}
+.warsaw :hover,.barcelona :hover, .curitibia :hover, .rome :hover, .mexico :hover, .istanbul :hover{
+    box-shadow: 0px 10px 2px rgb(175, 175, 175);
+}
+.section6 img{
+    border-radius: 5px 5px 0px 0px;
+}
+.section6 p {
+    color:grey;
+    font-size: 18px;
+    padding-right: 70px;
+}
+.down-part{
+    display:flex;
+    justify-content: space-around;
+   
+}   
+.l{
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    display: block;
+    width: 110px ;
+    height:22px ;
+    background-color:#3d83df;
+    font-size: 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding-top:11px;
+    float: right;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    padding-right: 5px;
+}
+
+.footer{
+    text-align: center;
+    padding-right: 190px;
+    padding-left:190px;
+    color: rgb(172, 170, 170);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p8{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.footer a{
+    text-decoration: none;
+    color:#3d83df;
+}
